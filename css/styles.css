@@ -112,7 +112,7 @@ h1 {
     padding-top: 88px;
     padding-bottom: 75px;
 }
-.waiting .waiting_title {
+.waiting_title {
     font-family: Roboto, sans-serif;
     font-weight: normal;
     font-size: 30px;
@@ -189,4 +189,12 @@ h1 {
     left: -54px;
     top: 70px;
     z-index: -1;
+}
+.finish {
+    min-height: 447px;
+    padding: 86px 0 68px 0;
+    background: url("../img/second_bg.png");
+}
+.finish .waiting_title {
+    color: white;
 }
