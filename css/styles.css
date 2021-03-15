@@ -193,8 +193,34 @@ h1 {
 .finish {
     min-height: 447px;
     padding: 86px 0 68px 0;
-    background: url("../img/second_bg.png");
+    background: url("../img/second_bg.png") center center / cover no-repeat;
 }
 .finish .waiting_title {
     color: white;
+}
+.finish_wrapper {
+    margin-top: 39px;
+    display: flex;
+    justify-content: center;
+}
+.finish_item {
+    width: 234px;
+}
+.finish_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    height: 115px;
+    background: #B4E2FF;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+.finish_descr {
+    margin-top: 25px;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    text-align: center;
+    color: #EFEFEF;
 }
