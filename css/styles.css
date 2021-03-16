@@ -226,8 +226,51 @@ h1 {
     height: 631px;
     background: #EFEFEF;
 }
+.gift_txt {
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    line-height: 43px;
+    text-align: center;
+    color: #252525;
+    margin-top: 45px;
+}
 .gift_img {
     display: block;
     margin: 0 auto;
     padding-top: 88px;
+}
+.gift button {
+    margin-top: 51px;
+}
+.footer{
+    height: 512px;
+}
+.footer_item{
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #252525;
+}
+.footer_img {
+    /*display: block;*/
+    margin: 81px auto 36px auto;
+}
+.footer h2{
+    font-weight: 900;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #299CBD;
+    margin: 25px;
+    line-height: 36px;
+}
+.footer_title{
+    font-size: 30px;
+    line-height: 30px;
+    color: #4A4A4A;
+}
+.footer_subtitle{
+    font-size: 23px;
+    line-height: 23px;
+    color: #4A4A4A;
+    text-transform: initial;
 }
